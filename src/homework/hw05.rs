@@ -1,4 +1,4 @@
-pub fn gcd(a: u32, b: u32) -> u32 {
+    fn gcd(a: u32, b: u32) -> u32 {
     let mut a = a;
     let mut b = b;
     while b != 0 {
